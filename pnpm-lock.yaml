@@ -17,7 +17,7 @@ specifiers:
   vue: ^3.2.31
 
 dependencies:
-  '@vue/repl': 1.0.0_vue@3.2.31
+  '@vue/repl': 1.5.0_vue@3.2.31
   '@vue/theme': 1.0.1_vue@3.2.31
   dynamics.js: 1.1.5
   gsap: 3.9.0
@@ -32,7 +32,7 @@ devDependencies:
   textlint: 12.1.0
   textlint-filter-rule-allowlist: 4.0.0_textlint@12.1.0
   textlint-filter-rule-comments: 1.2.2_textlint@12.1.0
-  textlint-rule-preset-vuejs-jp: github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/b7cbf96a0b1d28184403bfc087da5f855671f0da_textlint@12.1.0
+  textlint-rule-preset-vuejs-jp: github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/d62d64c25aed61a5f7455028b31aca7640181a13_textlint@12.1.0
 
 packages:
 
@@ -466,8 +466,8 @@ packages:
       '@vue/shared': 3.2.31
     dev: false
 
-  /@vue/repl/1.0.0_vue@3.2.31:
-    resolution: {integrity: sha512-cDcQuWKZuA0Y0JYEpiQS/ZAEGP/RrfkcK+zKm5H8tUjfD8XIxYHY+sQGoY6FSkz/gAOQJocrsaPgt7ddKL0inQ==}
+  /@vue/repl/1.5.0_vue@3.2.31:
+    resolution: {integrity: sha512-qFqKtvA2FM9viYXzbWrpGrL8mDGswsqDsEjfaibr/YOqeza7i49VmO0AKPrOdQDOS2qmq9uV+G6OPX1rGhUSIQ==}
     peerDependencies:
       vue: ^3.2.13
     dependencies:
@@ -589,36 +589,36 @@ packages:
     dev: false
 
   /amp-create-callback/1.0.1:
-    resolution: {integrity: sha1-UbtvFJFUXYbpvyNsr/UUu7RXgxA=}
+    resolution: {integrity: sha512-6VunSFZ+GbIDWi/Vdeb1dgToRmbKfrfi3mzjC1c8QDUTgk7tx8JpUz5yJL8r/Jhgg5bH0eOCkQWCTQ++ipVcrw==}
     dev: true
 
   /amp-each/1.0.1:
-    resolution: {integrity: sha1-DWyKM79JnIs95iMiRXx4ue2lwA8=}
+    resolution: {integrity: sha512-FdRP/SerovbQc91xmpF2Ud0CTKQ8QW89wvPf5hQ/JnndUicfx9PrGYuxRvzckeoRhC/38XEoLC6XYNVdFpJm0Q==}
     dependencies:
       amp-create-callback: 1.0.1
       amp-keys: 1.0.1
     dev: true
 
   /amp-has/1.0.1:
-    resolution: {integrity: sha1-3MWKCQpMb8SUfNtujEEO2f9SAsY=}
+    resolution: {integrity: sha512-KcFsv9i9VVyc9VvMT30Fr0SnJQbOFrtCHMDAGjkD2dvYcygxUviEoUH7pWvpnoonrSeWcj7WS/NuO3gx/vyyUw==}
     dev: true
 
   /amp-index-of/1.1.0:
-    resolution: {integrity: sha1-0deY6lfaVSsCE2W4Wx443fmTscE=}
+    resolution: {integrity: sha512-8ZVB+BOAe1cPSOU2MvPiaSzGD71T8tuY6cf+JTZRA4F7oZFSYvjyhNGYTvrpRcmFaFmapqM8f0dmLLfm2HcjjA==}
     dependencies:
       amp-is-number: 1.0.1
     dev: true
 
   /amp-is-number/1.0.1:
-    resolution: {integrity: sha1-9DDS5l0bvSzEHb2a+38D0+MooxQ=}
+    resolution: {integrity: sha512-qfMX1U6Z126J6mn3Sq3olrD73As8FSHEW3+d5mR6PIht9m/AeFelcmUw5Fk0EqBxzYVEjA5t0wAQRhGjnXGbfQ==}
     dev: true
 
   /amp-is-object/1.0.1:
-    resolution: {integrity: sha1-Coy1lWuREqFqc2d+jLrTe7okdwI=}
+    resolution: {integrity: sha512-oZ6BelObhLMcbk2+Qho1qIMWcsBfAf+BMsqusOWyWVDB4rtq4ERx85wZBYIFiaKjrMOH0BKfjJHim0h+XlEd3g==}
     dev: true
 
   /amp-keys/1.0.1:
-    resolution: {integrity: sha1-tyH7gx2nmIFQT060SjntkwpbsSk=}
+    resolution: {integrity: sha512-2oFXnlyfOzNY1AMfQdzwolYfCKDeK2YF9zPEfUGCswGC29sa7jQJ6alZpKoPzIpvLcd/JH6LKrSjzFbDAxYtaw==}
     dependencies:
       amp-has: 1.0.1
       amp-index-of: 1.1.0
@@ -626,7 +626,7 @@ packages:
     dev: true
 
   /analyze-desumasu-dearu/2.1.5:
-    resolution: {integrity: sha1-nKoqWgYUbCBnn33J869Sfbb2j0E=}
+    resolution: {integrity: sha512-4YPL7IRAuaZflE10+BVhKr6k5KQl/DiLeNCIF7ISqKr0ogM2hqm9ztRNCPqL/xYDI7hfuIHR8T+U7mIDRLQNXw==}
     dev: true
 
   /analyze-desumasu-dearu/5.0.1:
@@ -814,7 +814,7 @@ packages:
     dev: true
 
   /code-point/1.1.0:
-    resolution: {integrity: sha1-mZhB9R9UzK5KDau8hpBjI0YD/s0=}
+    resolution: {integrity: sha512-L9JOfOolA/Y/YKVO+WUscMXuYUcHmkleTJkvl1G0XaGFj5JDXl02BobH8avoI/pjWvgOLivs2bizA0N6g8gM9Q==}
     dev: true
 
   /color-convert/2.0.1:
@@ -931,7 +931,7 @@ packages:
     dev: true
 
   /doublearray/0.0.2:
-    resolution: {integrity: sha1-Yxhv6NNEEydtNiH2qg7F954ifvk=}
+    resolution: {integrity: sha512-aw55FtZzT6AmiamEj2kvmR6BuFqvYgKZUkfQ7teqVRNqD5UE0rw8IeW/3gieHNKQ5sPuDKlljWEn4bzv5+1bHw==}
     dev: true
 
   /dynamics.js/1.1.5:
@@ -1203,7 +1203,7 @@ packages:
     dev: true
 
   /execall/1.0.0:
-    resolution: {integrity: sha1-c9CQTjlbPKsGWLCNCewlMH8pu3M=}
+    resolution: {integrity: sha512-/J0Q8CvOvlAdpvhfkD/WnTQ4H1eU0exze2nFGPj/RSC7jpQ0NkKe2r28T5eMkhEEs+fzepMZNy1kVRKNlC04nQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       clone-regexp: 1.0.1
@@ -1517,7 +1517,7 @@ packages:
     dev: true
 
   /is-regexp/1.0.0:
-    resolution: {integrity: sha1-/S2INUXEa6xaYz57mgnof6LLUGk=}
+    resolution: {integrity: sha512-7zjFAPO4/gwyQAAgRRmqeEeyIICSdmCqa3tsVHMdBzaXXRiqopZL4Cyghg/XulGWrtABTpbnYYzzIRffLkP4oA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -1550,11 +1550,11 @@ packages:
     dev: true
 
   /japanese-numerals-to-number/1.0.2:
-    resolution: {integrity: sha1-y/yxjKbpOlGwYvM6Xl0p2ddpPZQ=}
+    resolution: {integrity: sha512-rgs/V7G8Gfy8Z4XtnVBYXzWMAb9oUWp1pDdRmwHmh0hcjcy1kOu+DOpC5rwoHUAN4TqANwb7WD6z5W2v7v7PQQ==}
     dev: true
 
   /joyo-kanji/0.2.1:
-    resolution: {integrity: sha1-Xi6OorkDupMz8WgMZpAvyWgupZI=}
+    resolution: {integrity: sha512-bRx8wMjrZQDfAQIQXVDYRcznafdmB/0uIy+/PORguEO1vkV5GJVEWLZDPAHL5eM8liCIYDVAdNURV7WEjzMvUw==}
     dev: true
 
   /js-yaml/3.14.1:
@@ -1971,7 +1971,7 @@ packages:
     dev: true
 
   /moji/0.5.1:
-    resolution: {integrity: sha1-CI7s0cIsjzGiQK3PnJXlTzPrVPs=}
+    resolution: {integrity: sha512-xYylXOjBS9mE/d690InK3Y74NpE0El0TmAKDmKJveWk9jds/0Tl7MQP4yhavS0U64diEq+5ey2905nhCpIHE+Q==}
     dependencies:
       object-assign: 3.0.0
     dev: true
@@ -2029,7 +2029,7 @@ packages:
     dev: true
 
   /object-assign/3.0.0:
-    resolution: {integrity: sha1-m+3VygiXlJvKR+f/QIBi1Un1h/I=}
+    resolution: {integrity: sha512-jHP15vXVGeVh1HuaA2wY6lxk+whK/x4KBG88VXeRma7CCun7iGD5qPc4eYykQ9sdQvg8jkwFKsSxHln2ybW3xQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -2313,7 +2313,7 @@ packages:
     dev: true
 
   /regx/1.0.4:
-    resolution: {integrity: sha1-oO4ywwiRCQIBnKERftQbnd0EGy8=}
+    resolution: {integrity: sha512-Z/5ochRUyD5TkJgFq+66ajKePlj6KzpSLfDO2lOLOLu7E82xAjNux0m8mx1DAXBj5ECHiRCBWoqL25b4lkwcgw==}
     dev: true
 
   /remark-footnotes/3.0.0:
@@ -2488,10 +2488,11 @@ packages:
 
   /sorted-array/2.0.4:
     resolution: {integrity: sha512-58INzrX0rL6ttCfsGoFmOuQY5AjR6A5E/MmGKJ5JvWHOey6gOEOC6vO8K6C0Y2bQR6KJ8o8aFwHjp/mJ/HcYsQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dev: true
 
   /sorted-joyo-kanji/0.2.0:
-    resolution: {integrity: sha1-NK5ruvDuCl6RZbKk7rUeKrI+GFw=}
+    resolution: {integrity: sha512-zTEYyDjGqVBdotkM9ElCglxtiji6tqxLAHQinTm3+SZaMvvHjGdeVVopfra99IbZbeH++t0vii8IxbE8qW34zg==}
     dependencies:
       amp-each: 1.0.1
       code-point: 1.1.0
@@ -2536,7 +2537,7 @@ packages:
     dev: true
 
   /sprintf-js/1.0.3:
-    resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
+    resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
     dev: true
 
   /string-argv/0.3.1:
@@ -2676,7 +2677,7 @@ packages:
     dev: true
 
   /textlint-rule-helper/1.2.0:
-    resolution: {integrity: sha1-vmjUelFGsW3RFieMmut701YxzNo=}
+    resolution: {integrity: sha512-yJmVbmyuUPOndKsxOijpx/G7mwybXXf4M10U2up0BeIZSN+6drUl+aSKAoC+RUHY7bG4ogLwRcmWoNG1lSrRIQ==}
     dependencies:
       unist-util-visit: 1.4.1
     dev: true
@@ -2763,7 +2764,7 @@ packages:
     dev: true
 
   /textlint-rule-no-hankaku-kana/1.0.2:
-    resolution: {integrity: sha1-bTqTaxjNcCHr/8qNQREYHcFZ9Mg=}
+    resolution: {integrity: sha512-3wcCi2zz68+0Lzc+2a3A0JIkj0CRW02GrwP12KDOi+k6ouJ4E9C1qP09wb0CJCIJeSctcXuWmaNNgo+HC7lWRQ==}
     dependencies:
       match-index: 1.0.3
       textlint-rule-helper: 1.2.0
@@ -3183,16 +3184,16 @@ packages:
     dev: true
 
   /zlibjs/0.3.1:
-    resolution: {integrity: sha1-UBl+2yihxCymWcyLTmqd3W1ERVQ=}
+    resolution: {integrity: sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w==}
     dev: true
 
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
     dev: true
 
-  github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/b7cbf96a0b1d28184403bfc087da5f855671f0da_textlint@12.1.0:
-    resolution: {tarball: https://codeload.github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/tar.gz/b7cbf96a0b1d28184403bfc087da5f855671f0da}
-    id: github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/b7cbf96a0b1d28184403bfc087da5f855671f0da
+  github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/d62d64c25aed61a5f7455028b31aca7640181a13_textlint@12.1.0:
+    resolution: {tarball: https://codeload.github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/tar.gz/d62d64c25aed61a5f7455028b31aca7640181a13}
+    id: github.com/vuejs-jp/textlint-rule-preset-vuejs-jp/d62d64c25aed61a5f7455028b31aca7640181a13
     name: textlint-rule-preset-vuejs-jp
     version: 1.3.0
     dependencies:
